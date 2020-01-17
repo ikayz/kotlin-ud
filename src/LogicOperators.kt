@@ -20,5 +20,11 @@ NOT (!)
  */
 
 fun main() {
-
+    val age = 23
+    println(if (age == 23) "You are quite youngish" else "You are a lil' bit old")
+    if (age in 18..60) {
+        println("You don't qualify for medical insurance")
+    } else  {
+        println("You qualify for insurance")
+    }
 }
