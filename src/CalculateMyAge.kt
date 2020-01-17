@@ -8,6 +8,7 @@ fun main() {
 
     // Get the year from device
     val currentYearFromDevice = Calendar.getInstance().get(Calendar.YEAR)
+    println(currentYearFromDevice)
     println("Enter birth year: ")
     val birthYear: Int = readLine()!!.toInt()
 
