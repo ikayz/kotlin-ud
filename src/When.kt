@@ -8,17 +8,10 @@ fun main(args: Array<String>) {
     val pizzaId: Int = readLine()!!.toInt()
 
     when(pizzaId) {
-        1 -> {
-            println("You ordered Hawaiian.")
-        }
-        2 -> {
-            println("You ordered Margaretta.")
-        }
-        3 -> {
-            println("You ordered Chicken Salami.")
-        }
-        4 -> {
-            println("You ordered Vegetarian.")
-        }
+        1 -> println("You ordered Hawaiian.")
+        2 -> println("You ordered Margaretta.")
+        3 -> println("You ordered Chicken Salami.")
+        4 -> println("You ordered Vegetarian.")
+        else -> println("You did not order anything from the menu.")
     }
 }
