@@ -8,4 +8,9 @@ fun main(args: Array<String>) {
     for (i: Int in 1..20 step 2) {
         println("Number is $i")
     }
+
+    println("== Decrement ==")
+    for (i: Int in 20 downTo 1 step 2) {
+        println("Down is $i")
+    }
 }
